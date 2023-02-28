@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/myreactpages/static/css/main.5ac5415c.css",
+    "main.js": "/myreactpages/static/js/main.98e2ca7c.js",
+    "static/media/MountainClouds.mp4": "/myreactpages/static/media/MountainClouds.c2638a6b2728ccac6f59.mp4",
+    "static/media/pexels-luis-del-río-15286.jpg": "/myreactpages/static/media/pexels-luis-del-río-15286.6e8b95d9acbb6ac6d230.jpg",
+    "static/media/pexels-sam-kolder-2387873.jpg": "/myreactpages/static/media/pexels-sam-kolder-2387873.f621b7ff0f68ddd567c7.jpg",
+    "static/media/pexels-piccinng-3075993.jpg": "/myreactpages/static/media/pexels-piccinng-3075993.ff28187adfe8e066c393.jpg",
+    "static/media/smoke-2234175.jpg": "/myreactpages/static/media/smoke-2234175.c2ac55b46a034140bb96.jpg",
+    "static/media/pexels-tan-danh-1329711.jpg": "/myreactpages/static/media/pexels-tan-danh-1329711.1ef740de809f9f383814.jpg",
+    "static/media/pexels-pixabay-2150.jpg": "/myreactpages/static/media/pexels-pixabay-2150.4e886ea54897898b4550.jpg",
+    "static/media/pexels-pixabay-461940.jpg": "/myreactpages/static/media/pexels-pixabay-461940.8b1886fbb3472ea46c90.jpg",
+    "static/media/pexels-og-mpango-3041110.jpg": "/myreactpages/static/media/pexels-og-mpango-3041110.91dee692290d2519d484.jpg",
+    "static/media/instagram2023.png": "/myreactpages/static/media/instagram2023.6ba6197fff0f59c2eacc.png",
+    "static/media/pexels-jeremy-bishop-2422915.jpg": "/myreactpages/static/media/pexels-jeremy-bishop-2422915.7479c486ab838e00474c.jpg",
+    "static/media/pexels-cesar-perez-733745.jpg": "/myreactpages/static/media/pexels-cesar-perez-733745.5779d371796749db0aed.jpg",
+    "static/media/brollop171212_web-48.jpg": "/myreactpages/static/media/brollop171212_web-48.39bb34ebe1d367513f9d.jpg",
+    "static/media/pexels-philippe-donn-1114690.jpg": "/myreactpages/static/media/pexels-philippe-donn-1114690.79f61eb27bcdcb2f0520.jpg",
+    "static/media/me-portrait-round.png": "/myreactpages/static/media/me-portrait-round.494b02828fdbcf2d4177.png",
+    "static/media/Linkedin.png": "/myreactpages/static/media/Linkedin.6f78ce7d7b17f58063bd.png",
+    "static/media/profile-round-blue.png": "/myreactpages/static/media/profile-round-blue.786c5f9616ee46086eaf.png",
+    "static/media/licenseIcon.png": "/myreactpages/static/media/licenseIcon.5e7b2dff354aca7a2ae5.png",
+    "static/media/Facebook.png": "/myreactpages/static/media/Facebook.50d400c7b64db13be7a7.png",
+    "index.html": "/myreactpages/index.html",
+    "static/media/arrow-right-circle.svg": "/myreactpages/static/media/arrow-right-circle.e2e9c73bea2de7d2ccddd9fb0c5bb3a1.svg",
+    "main.5ac5415c.css.map": "/myreactpages/static/css/main.5ac5415c.css.map",
+    "main.98e2ca7c.js.map": "/myreactpages/static/js/main.98e2ca7c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5ac5415c.css",
+    "static/js/main.98e2ca7c.js"
+  ]
+}

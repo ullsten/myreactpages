@@ -1,0 +1,166 @@
+{
+  "details":[
+     {
+        "id":"1",
+        "heading":"Details",
+        "phone":"0730-913046",
+        "email":"ullzten@gmail.com",
+        "address":"Byskillnadsvägen 14, 89340",
+        "country":"Köpmanholmen, Sweden"
+     }
+  ],
+  "profile":[
+     {
+        "id":"1",
+        "heading":"Profile",
+        "content":"My goal is to constantly develop and learn new things. I am a social, curious and positive person who enjoys a varied and is not afraid of physical work. Working with people is something I both appreciate and master."
+     }
+  ],
+  "skills":[
+     {
+        "id":"1",
+        "heading":"Skills",
+        "operatingSystem":"Windows XP/Vista/7/8/10/11",
+        "office":"Microsoft Office/Excel/Word/OutLook",
+        "coding":"Microsft Visual Studio/Code",
+        "database":"SQL Server Manegement Studio(SSMS)",
+        "cooperation":"Cooperation"
+     }
+  ],
+  "languages":[
+     {
+        "id":"1",
+        "heading":"Languages",
+        "swedish":"Swedish",
+        "knowledgeSwedish":"Native"
+     },
+     {
+        "id":2,
+        "english":"English",
+        "knowledgeEnglish":"Good"
+     }
+  ],
+  "licenses":[
+     {
+        "id":"1",
+        "heading":"Licenses",
+        "car":"Driving license: B, BE, B96, A",
+        "snowmobile":"Snowmobile driver´s license",
+        "traverse":"Evidence for traverse(taken on Metsä Board, Husum",
+        "scaffold":"Special training and Vocational certificate as scaffolder",
+        "fall":"Fall protection training"
+     }
+  ],
+  "references":[
+     {
+        "id":"1",
+        "name":"Tomas Nordin",
+        "phone":"070-3412223",
+        "company":"Botnia Ställningar/HighCon AB"
+     },
+     {
+        "id":"2",
+        "name":"Ulf Bylund",
+        "company":"Metsä Board, Husum"
+     }
+  ],
+  "education":[
+     {
+        "id":"1",
+        "heading":"Education",
+        "date":"2022 - current",
+        "course":"System developer.NET with AI competence",
+        "school":"Edugrade education"
+     },
+     {
+        "id":"2",
+        "date":"2021-2022",
+        "course":"Programming 1",
+        "school":"Education Örnsköldsvik"
+     },
+     {
+        "id":"3",
+        "date":"2021-2022",
+        "course":"Technique 1",
+        "school":"Education Örnsköldsvik"
+     },
+     {
+        "id":"4",
+        "date":"2011",
+        "course":"Buisness management(step 1) 40h",
+        "school":"The scaffolding contractors(STIB Ställningsentreprenörerna)"
+     },
+     {
+        "id":"5",
+        "date":"2022 - current",
+        "course":"Social science focus(samhällsvetenskaplig inriktning)",
+        "school":"Nolaskolans gymnasium, Örnsköldsvik"
+     }
+  ],
+  "heading":[
+     {
+        "id":"1",
+        "work":"Work Experience",
+        "education":"Education",
+        "language":"Languages",
+        "references":"References",
+        "skill":"Competences"
+     }
+  ],
+  "work":[
+     {
+        "id":"1",
+        "company":"HighCon AB",
+        "role":"Scaffolder.",
+        "date":"2021 - current"
+     },
+     {
+        "id":"2",
+        "company":"Botnia Ställningar AB",
+        "role":"Scaffolder.",
+        "date":"2015-2021"
+     },
+     {
+        "id":"3",
+        "company":"Metsä Board, Husum",
+        "role":"Shift operator on Coating machine (BM1) and Calendering machine.",
+        "date":"2013-2015"
+     },
+     {
+        "id":"4",
+        "company":"Self-employed, Nordisk Ställningsmontage i Sverige AB",
+        "role":"Since the spring of 2009, I have run my own business in the construction industry with a focus on staffing. My positions have been CEO, payroll manager and scaffolder.",
+        "date":"2009 - current"
+     },
+     {
+        "id":"5",
+        "company":"Timrå Industriservice AB",
+        "role":"Scaffolder.",
+        "date":"2006-2009"
+     },
+     {
+        "id":"6",
+        "company":"Harrys Örnsköldsivk",
+        "role":"Entrance host, extra work on weekends.",
+        "date":"2006-2010"
+     },
+     {
+        "id":"7",
+        "company":"Örnsköldsivk municipality",
+        "role":"Habilitation assistant and Personal assistant. Permanent employee in disability care.",
+        "date":"2004-2006"
+     },
+     {
+        "id":"8",
+        "company":"Örnsköldsivk municipality",
+        "role":"Carer. Permanent employee in elderly care as carer.",
+        "date":"2001-2003"
+     },
+     {
+        "id":"9",
+        "company":"Rusta, Örnsköldsvik",
+        "role":"Shop assistant and warehouse worker.",
+        "date":"1999-2001"
+     }
+  ]
+}
