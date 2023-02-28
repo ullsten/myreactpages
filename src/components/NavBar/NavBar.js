@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.css';
 import {Container, Nav, Navbar, NavDropdown} from 'react-bootstrap'
 import {NavLink} from 'react-router-dom';
 import './NavBar.css';
-import ConfettiOnClick from '../Eggs/ConfettiClick';
 
 
 export default function navbar(){
@@ -41,7 +40,6 @@ export default function navbar(){
             </NavDropdown> */}
           </Nav>
           <Nav>
-            <ConfettiOnClick/>
             {/* <Nav.Link href="#deets"></Nav.Link> */}
             <Nav.Link eventKey={2} as = {NavLink} to="/Home">Home</Nav.Link>
           </Nav>

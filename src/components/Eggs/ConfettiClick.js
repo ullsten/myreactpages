@@ -18,9 +18,9 @@ const ConfettiOnClick = () => {
 
   return (
    <div className='mt-2'>
-    <button className="eggContainer m-0 p-0 rounded" onClick={()=> setBtn(!Btn)}>Party</button>
+    <button className="eggContainer m-0 p-0 rounded" onClick={()=> setBtn(!Btn)}>Ullsten</button>
    {Btn &&  <ReactConfetti
-    width={windowDimension.width-150}
+    width={windowDimension.width-50}
     height={windowDimension.height}
     tweenDuration={1000}
     
