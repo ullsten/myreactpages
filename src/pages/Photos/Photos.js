@@ -22,7 +22,7 @@ for (let i = 0, img; img = imgs[i]; i++) {
 } 
 
 // Get the <span> element that closes the modal
-//change "modal" to close to close on X only
+//change "modal" to close to close on X only .
 var span = document.getElementsByClassName("modal")[0];
 
 // When the user clicks on <span> (x), close the modal
