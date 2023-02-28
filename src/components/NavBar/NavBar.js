@@ -43,7 +43,7 @@ export default function navbar(){
           <Nav>
             <ConfettiOnClick/>
             {/* <Nav.Link href="#deets"></Nav.Link> */}
-            <Nav.Link eventKey={2} href="/Home">Home</Nav.Link>
+            <Nav.Link eventKey={2} as = {NavLink} to="/Home">Home</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       {/* </Container> */}

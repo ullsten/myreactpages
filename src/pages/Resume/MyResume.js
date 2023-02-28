@@ -16,8 +16,8 @@ export default function MyResume(){
 
   useEffect(()=>{
     setTimeout(()=>{
-      // If error Doctype error try to type in {headers: {Accept: 'application/json'}}
-       fetch('../JsonData/resume.json', {headers: {Accept: 'application/json'}})
+      // If error Doctype error try to type in ,{headers: {Accept: 'application/json'}} to work local. need to delete on deploy
+       fetch('../JsonData/resume.json')
       .then (res => res.json(console.log(res)))
       .then(
         (result)=>{
