@@ -1,25 +1,20 @@
-import logo from './logo.svg';
+import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import { React, useState, useEffect } from 'react';
+import {Footer, AppRouter} from './components';
+import SecretPic from './img/backgrounds/smoke-2234175.jpg'
+import VideoBg from './TestFolder/VideoBg';
 
-function App() {
+export default function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+      <section className='m-3'>
+       <AppRouter/>
+      <Footer/>
+    </section>
 
-export default App;
+
+
+  );
+};
+

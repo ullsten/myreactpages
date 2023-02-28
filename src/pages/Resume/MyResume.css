@@ -1,0 +1,85 @@
+.cvContainer{
+
+}
+.row{
+  text-align: left;
+}
+.col{
+  background-color: rgb(224, 223, 223);
+}
+.col_left{
+  background-color: rgb(17, 80, 143);
+}
+.col_left li{
+  list-style: disc;
+  list-style-position: inside;
+  text-align: left;
+}
+.col_left p{
+  color: rgb(143, 146, 149);
+  font-size: 0.9em;
+}
+.col_left h3, .col_right h3{
+  margin-top: 10px;
+  text-align: center;
+}
+.col_right h3{
+  text-align: left;
+}
+.resumePortrait{
+  padding: 1em;
+  margin: 0;
+  background-color: rgb(224, 223, 223);
+}
+.detailIcon{
+  width: 10%;
+  padding-bottom: 10px;
+  padding-right:15px;
+}
+.LeftIcons{
+  width: 0.6em;
+  padding-bottom: 10px;
+  margin-right: 15px;
+}
+.RightIcons{
+  width: 0.6em;
+  padding-bottom: 10px;
+  margin-right: 15px;
+}
+.companyIcon{
+  width: 1em;
+  padding-bottom: 5px;
+  margin-right: 15px;
+}
+.hrRight{
+  height: 0.3em;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1em;
+  background-color: rgb(0, 0, 0);
+}
+.hrLeft{
+  height: 0.3em;
+  background-color: rgb(34, 140, 240);
+  margin:auto;
+  margin-bottom: 1em;
+  width: 50%;
+}
+.swedish{
+  background-color: rgb(34, 140, 240);
+}
+.english{
+  background-color: rgb(34, 140, 240);
+  width: 95%;
+}
+.skills{
+  background-color: rgb(180, 181, 182);
+  padding-bottom: 0.5em;
+  margin-bottom: 1em;
+}
+.w-95{
+  width: 95%;
+}
+.w-90{
+  width: 90%;
+}

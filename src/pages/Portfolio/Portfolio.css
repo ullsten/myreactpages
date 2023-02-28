@@ -1,0 +1,39 @@
+.l{
+  background-color: white;
+}
+
+.title{
+  color: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row img {
+  max-width: 100%;
+}
+ul,
+ol,
+li {
+  list-style-type: none;
+}
+#rad{
+  background-color: rgba(255, 255, 255, 0);
+  text-align: left;
+}
+.rounded-circle{
+  width: 100px;
+}
+.public{
+  background-color: rgb(93, 190, 74);
+  /* display: inline-block; */
+}
+.loading{
+  height: 20em;
+}
+@media screen and (max-width: 768px) {
+    
+}

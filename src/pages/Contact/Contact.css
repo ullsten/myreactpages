@@ -1,0 +1,92 @@
+.row_contact{
+  display: flex;
+  flex-wrap: wrap;
+}
+.colLeft{
+  flex: 40%;
+}
+.colRight{
+  flex: 60%;
+  margin: auto;
+}
+.emailForm{
+width: 80%;
+margin: auto;
+}
+form{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+  font-size: 16px;
+  color: rgb(255, 255, 255);
+}
+input {
+  width: 100%;
+  height: 35px;
+  padding: 7px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid rgb(220, 220, 220);
+  } 
+  input:focus{
+    border: 2px solid rgb(249, 105, 14)
+  }
+  
+  textarea {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    height: 100px;
+    max-height: 300px;
+    min-height: 100px;
+    padding: 7px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid rgb(220, 220, 220);
+  }
+  textarea:focus{
+    border: 2px solid rgb(249, 105, 14)
+  }
+  label {
+    margin-top: 1rem;
+  }
+  
+  input[type="submit"] {
+    margin-top: 2rem;
+    cursor: pointer;
+    background: rgb(249, 105, 14);
+    color: white;
+    border: none;
+  }
+  input[type="submit"]:hover {
+    color: black;
+    background-color: rgb(27, 90, 65);
+  }
+  .colRight img{
+    width: 10%;
+  }
+.social_Icons:hover{
+  transform: scale(1.5)
+}
+  @media only screen and (max-width: 930px) {
+    .colLeft, .colRight{
+      flex: 40%;
+    }
+  }
+
+  @media only screen and (max-width: 610px) {
+    .colLeft, .colRight{
+      flex: 100%;
+      margin: 1em;
+    }
+    .colRight{
+      margin-top: 5em;
+    }
+    .colRight img{
+      width: 30%;
+    }
+  }
+  
+ 
+  

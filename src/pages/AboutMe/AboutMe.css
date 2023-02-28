@@ -1,0 +1,87 @@
+/* ABOUT ME PAGE STARTS */
+.AboutMe{
+  margin-bottom: 0em;
+}
+.aboutMain{
+  display: flex;
+  flex-wrap: wrap;
+ margin-top: 0px;
+ margin-bottom: 95px;
+ margin-left: 20px;
+ margin-right: 20px;
+ /* background-color: rgba(0, 0, 0, 0.7); */
+ border: 0px solid white;
+}
+.aboutHeader{
+  text-align: left;
+  margin-top: 65px;
+  padding-left: 170px;
+  border: 0px solid green;
+}
+.aboutHeader h1{
+color: rgb(255, 255, 255);
+margin-bottom: 20px;
+}
+.aboutHeader span{
+  color: rgb(247, 117, 12);
+  font-weight: 400;
+}
+.aboutHeader h4{
+  color: slategray;
+}
+.meInfo{
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: 0px solid #000000;
+  }
+.meInfo > p{
+color: rgb(255, 255, 255);
+text-align: left;
+font-weight: 300;
+font-size: 15px;
+letter-spacing: 0.03em;
+border: #000000 solid 0px;
+}
+.meInfo h3{
+  color: rgb(247, 117, 12);
+}
+.myPicture{
+  flex: 100%;
+  border: 0px solid #06D85F;
+  margin-bottom: auto;
+  margin-top:   auto;
+  max-width: 35%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.mePortrait{
+  width: 60%;
+  border: 2px solid rgb(247, 117, 12);
+  border-radius: 10px 10px;
+}
+@media screen and (max-width: 600px) {
+  .aboutHeader{
+   text-align: center;
+   padding: 0;
+   margin-bottom: 10px;
+  }
+  .AboutMe{
+    margin-bottom: 18em;
+  }
+}
+@media screen and (max-width:683px) {
+  .mePortrait{
+    width: 100%;
+  
+  }
+}
+@media screen and (max-width: 950px) {
+ .mePortrait{
+  margin-top: 20px;
+ }
+}
+

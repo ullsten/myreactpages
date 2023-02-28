@@ -1,0 +1,40 @@
+.NavBar__bg{
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(ellipse at 3% 35%, rgba(31, 93, 192, 1) 0%, rgba(6, 14, 29, 1) 58%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(ellipse at 3% 35%, rgba(31, 93, 192, 1) 0%, rgba(6, 14, 29, 1) 58%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(ellipse at 3% 35%, rgba(31, 93, 192, 1) 0%, rgba(6, 14, 29, 1) 58%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(ellipse at 3% 35%, rgba(31, 93, 192, 1) 0%, rgba(6, 14, 29, 1) 58%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(ellipse at 3% 35%, rgba(31, 93, 192, 1) 0%, rgba(6, 14, 29, 1) 58%);
+  /* Content under navbar when open */
+  position: sticky; 
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1em;
+}
+
+.color-link{
+  /* color: rgb(255, 255, 255); */
+  font-weight: bolder;
+}
+.Brand_Item{
+color: rgb(255, 255, 255);
+margin-left: 0.5em;
+} 
+.Hamburger{
+  margin-right: 0.5em;
+}
+@media screen and (max-width:993px) {
+
+    
+
+}
+
+
