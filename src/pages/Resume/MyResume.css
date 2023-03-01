@@ -83,3 +83,27 @@
 .w-90{
   width: 90%;
 }
+@media print{
+  .cvContainer, col, .resumePortrait{
+
+  }
+  .detailIcon{
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  .cvContainer p, .Education li, .Licenses li, .Ref li, ul, li{
+ text-align: center;
+list-style: none;
+  }
+.resumePortrait h1 {
+  margin-top: 2em;
+}
+.Profile, .Work h3, .Competences h3{
+  text-align: center;
+}
+.Work, .Competences{
+  page-break-before: always;
+  
+}
+}

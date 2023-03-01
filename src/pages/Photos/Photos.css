@@ -3,13 +3,14 @@
   border: 0px solid white;
 }
 .photoContent{
-  display: flex;
-  flex-wrap: wrap;
+
+  flex-direction: column;
   background-color: rgba(0, 0, 0, 0.0);
   border: 0px solid green;
 }
 .pictureContainer {
-  text-align: center;
+  display: flex;
+  gap: 1em;
   padding: 5px;
 }
 .photoHeader{
@@ -30,19 +31,24 @@ margin-right: auto;
 margin-top: 0px;
 padding-top: 0;
 }
+.wrapper{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+.wrapper figure{
+  text-align: center;
+}
 .picture{
-  margin: 10px;
-  width: 15%;
-  padding: 3px;
+  margin: auto;
+  width: 40%;
+  padding: 5px;
   box-shadow: 0px 0px 50px 0px #4d53a1;
 }
-.picture:hover{
-  transform:scale(1.5)
-}
+
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
   .picture{
     width: 80%;
   }
-
 }

@@ -3,6 +3,7 @@ import React from 'react';
 import './Photos.css'
 import { WhiteCar, Doplphins, GreenForest, RoseInWater, Lightning, CityByNight,
 Space, PalmTrees, Waterfall, Bed } from '../../img/mixed';
+import ModalImage from 'react-modal-image'
 
 const onclickEnlarge = ()=>{
   // Get the modal
@@ -29,10 +30,8 @@ var span = document.getElementsByClassName("modal")[0];
 span.onclick = function() {
   modal.style.display = "none";
 }
-
 } 
 export default function Photos(){
-
 
   return(
     //photos container starts
@@ -44,11 +43,27 @@ export default function Photos(){
     {/* <a href="http://www.oskarullsten.se/Labb1_SkapaCV_Sida/html/photos.html"><p className="printContent">(full size available on my website)</p></a> */}
     {/* <!-- ends --> */}
     </header>
+
+ 
+      <section className='wrapper'>
+        <figure className=''>
+            <ModalImage className="picture" small={WhiteCar} medium={WhiteCar} large={WhiteCar} alt="whiteCar"/>
+            <ModalImage className="picture" small={WhiteCar} medium={WhiteCar} large={WhiteCar} alt="whiteCar"/>
+            <ModalImage className="picture" small={WhiteCar} medium={WhiteCar} large={WhiteCar} alt="whiteCar"/>
+            
+            </figure>
+        <figure className=''>
+            
+             </figure>
+        <figure className=''>
+             <ModalImage className="picture" small={WhiteCar} medium={WhiteCar} large={WhiteCar} alt="whiteCar"/>
+               <ModalImage className="picture" small={WhiteCar} medium={WhiteCar} large={WhiteCar} alt="whiteCar"/>
+             <ModalImage className="picture" small={WhiteCar} medium={WhiteCar} large={WhiteCar} alt="whiteCar"/>
+             </figure>
+      
      
-  <section className="photoContent">
-      <figure className="pictureContainer">
-        <img className="picture" src={WhiteCar} alt="white car"/>
-        <img className="picture" src={Doplphins} alt="Doplphins"/>
+
+        {/* <img className="picture" src={Doplphins} alt="Doplphins"/>
         <img className="picture" src={GreenForest} alt="Green forrest"/>
         <img className="picture" src={RoseInWater}alt="Rose in water"/>
         <img className="picture" src={Lightning} alt="Lightning"/>
@@ -56,21 +71,11 @@ export default function Photos(){
         <img className="picture" src={Space} alt="Space"/>
         <img className="picture" src={PalmTrees} alt="Palm trees by the beach"/>
         <img className="picture" src={Waterfall} alt="Waterfall"/>
-        <img className="picture" src={Bed} alt="Bed"/>
-      </figure>
-      
-      {/* <!-- The Modal to create clickable image--> */}
-    <section id="myModal" className="modal">
-      {/* <!-- The Close Button --> */}
-      <span className="close">&times;</span>
-      {/* <!-- Modal Content (The Image) --> */}
-      <img className="modal-content" id="img01"/>
-      {/* <!-- Modal Caption (Image Text) --> */}
-      <section id="caption"></section>
-        
+        <img className="picture" src={Bed} alt="Bed"/> */}
+      </section>
+    
   </section>
-</section>
-</section>
+
   );
 };
 

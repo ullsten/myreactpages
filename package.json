@@ -19,6 +19,7 @@
     "react-hidden-easter-egg": "^1.0.5",
     "react-icons": "^4.7.1",
     "react-modal": "^3.16.1",
+    "react-modal-image": "^2.6.0",
     "react-number-format": "^5.1.3",
     "react-raining-confetti": "^1.0.1",
     "react-scripts": "5.0.1",

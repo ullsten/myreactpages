@@ -57,10 +57,10 @@ export default function MyResume(){
       {/* Details */}
     {
     items && items.details.map(item=>(
-            <div key={item.id} className="">
+            <div key={item.id} className="Details">
               <h3><img className="LeftIcons" src={ContactIcon} alt='contact_icon'/>{item.heading}</h3>
               <div className='hrLeft rounded'/>
-            <ul className=''>
+            <ul className='Details'>
               <p className=''><img className="detailIcon" src={HouseIcon} alt='address_icon'/>{item.address}</p>
               <p className=''><img className="detailIcon" src={PhoneWhite} alt='phone_icon'/>{item.phone}</p>
               <p className=''><img className="detailIcon" src={GmailIcon} alt='email_icon'/>{item.email}</p>
@@ -83,7 +83,7 @@ export default function MyResume(){
         {/* Education */}
         {
         items && items.education.map(item=>(
-            <div key={item.id} className="">
+            <div key={item.id} className="Education">
             <ul>
               <li className='m-0'>{item.date}</li>
               <p className='m-0 text-white'>{item.course}</p>
@@ -132,7 +132,7 @@ export default function MyResume(){
 
 {
         items && items.heading.map(item=>(
-          <div key={item.id}>
+          <div key={item.id} className="">
            <h3><img className="LeftIcons" src={RefICon} alt="Globe_Icon"/>{item.references}</h3>
            <div className='hrLeft rounded'/>
             </div>
@@ -141,7 +141,7 @@ export default function MyResume(){
         {
         items && items.references.map(item=>(
           
-            <div key={item.id} className="">
+            <div key={item.id} className="Ref">
             <ul className='py-1'>
             <li className='m-0'>{item.name}</li>
             <p className='m-0 px-4'>{item.phone}</p>
@@ -157,7 +157,7 @@ export default function MyResume(){
             <div key={item.id} className="">
               <h3 className='text-center'><img className="LeftIcons" src={LicenseIcon} alt="license_icon"/>{item.heading}</h3>
               <div className='hrLeft rounded w-75'/>
-            <ul className=''>
+            <ul className='Licenses'>
               <li className=''>{item.car}</li>
               <li className=''>{item.snowmobile}</li>
               <li className=''>{item.traverse}</li>
@@ -174,7 +174,7 @@ export default function MyResume(){
       {/* Profile */}
     {
     items && items.profile.map(item=>(
-            <div key={item.id}>
+            <div key={item.id} className="Profile">
               <h3><img src={ProfileIconBlue} className="RightIcons" alt="contact_icon"/>{item.heading}</h3>
               <div className='hrRight rounded'/>
               <ul>
@@ -184,17 +184,16 @@ export default function MyResume(){
           ))
         }
         {/* profile ends */}
-
+        {/* Work experience */} 
         {
         items && items.heading.map(item=>(
-          <div key={item.id}>
+          <div key={item.id} className="Work">
            <h3><img className="RightIcons" src={Briefcase} alt="Briefcase_Icon"/>{item.work}</h3>
            <div className='hrRight rounded'/>
             </div>
           ))
           }
-        
-        {/* Work experience */} 
+
          {
         items && items.work.map(item=>(
             <div key={item.id} className="row">
@@ -213,7 +212,7 @@ export default function MyResume(){
           {/* Skills */}
         {
         items && items.heading.map(item=>(
-          <div key={item.id}>
+          <div key={item.id} className="Competences">
            <h3><img className="RightIcons" src={Briefcase} alt="Briefcase_Icon"/>{item.skill}</h3>
            <div className='hrRight rounded'/>
             </div>
