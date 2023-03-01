@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myreactpages/static/css/main.13c64942.css",
-    "main.js": "/myreactpages/static/js/main.eb875ecf.js",
+    "main.css": "/myreactpages/static/css/main.52f2f45f.css",
+    "main.js": "/myreactpages/static/js/main.4aaee5b5.js",
     "static/media/MountainClouds.mp4": "/myreactpages/static/media/MountainClouds.c2638a6b2728ccac6f59.mp4",
     "static/media/pexels-luis-del-río-15286.jpg": "/myreactpages/static/media/pexels-luis-del-río-15286.6e8b95d9acbb6ac6d230.jpg",
     "static/media/pexels-sam-kolder-2387873.jpg": "/myreactpages/static/media/pexels-sam-kolder-2387873.f621b7ff0f68ddd567c7.jpg",
@@ -23,11 +23,11 @@
     "static/media/Facebook.png": "/myreactpages/static/media/Facebook.50d400c7b64db13be7a7.png",
     "index.html": "/myreactpages/index.html",
     "static/media/arrow-right-circle.svg": "/myreactpages/static/media/arrow-right-circle.e2e9c73bea2de7d2ccddd9fb0c5bb3a1.svg",
-    "main.13c64942.css.map": "/myreactpages/static/css/main.13c64942.css.map",
-    "main.eb875ecf.js.map": "/myreactpages/static/js/main.eb875ecf.js.map"
+    "main.52f2f45f.css.map": "/myreactpages/static/css/main.52f2f45f.css.map",
+    "main.4aaee5b5.js.map": "/myreactpages/static/js/main.4aaee5b5.js.map"
   },
   "entrypoints": [
-    "static/css/main.13c64942.css",
-    "static/js/main.eb875ecf.js"
+    "static/css/main.52f2f45f.css",
+    "static/js/main.4aaee5b5.js"
   ]
 }
